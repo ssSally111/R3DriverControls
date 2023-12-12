@@ -2,7 +2,7 @@
 
 > 测试环境：vm win10 ltsc
 
-1. 加载运行驱动：
+1.加载运行驱动：
 
 ```shell
 C:\Users\ab\Desktop>DriverLoading.exe 1 C:\Users\ab\Desktop\DriverTest.sys DriverTest1
@@ -20,3 +20,10 @@ read length:10
 c c c c c c c c c c
 ```
 
+
+2.杀掉指定pid进程\[update\]
+```shell
+C:\Users\ab\Desktop>R3DriverControls.exe
+please enter pid:
+1234
+```
